@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "codex-core"
+version = "0.2.0"
+description = ""
+authors = ["Ryan Morey <ryan.t.morey@gmail.com>"]
+readme = "README.md"
+packages = [{include = "codex_core"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^2.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
